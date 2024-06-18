@@ -1,0 +1,14 @@
+
+.whatsapp-logo-container {
+    position: fixed;
+    bottom: 70px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .whatsapp-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    cursor: pointer; /* Optional: Show pointer cursor on hover */
+    /* transform: scaleX(-1); */
+  }

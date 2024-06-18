@@ -6,14 +6,18 @@ import Header from "../../components/header/Header";
 import Floating from "../../components/floating/Floating";
 // import Slider from "../../components/slider/Slider";
 import Carousel from "../../components/carousel/Carousel";
+import WhatsAppLogo from "../../components/WhatsAppLogo/WhatsAppLogo";
+import NavbarTop from "../../components/navbartop/NavbarTop";
 
 const home = () => {
   return (
     <div>
+      <NavbarTop/>
       <Navbar />
+      <WhatsAppLogo />
+      <Floating />
+      <Carousel />
       <Header />
-      <Floating/>
-      <Carousel/>
       {/* <Slider/>
       <Body /> */}
     </div>

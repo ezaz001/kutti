@@ -5,10 +5,14 @@ const Floating = () => {
   return (
     <div className="floatmain">
       <div className="float">
-        <span className="text">
+        <p className="text">
           All Your Wooden work done here | Quality You Can Trust, Style You'll
           Love
-        </span>
+        </p>
+      </div>
+      <div className="smalltext">
+        <p>Making Your House a Home</p>
+        <p>Where Style and Comfort Meet</p>
       </div>
     </div>
   );

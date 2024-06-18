@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { useNavigate } from "react-router-dom";
+import DropdownMenu from "../dropDown/DropdownMenu";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -27,12 +28,15 @@ const Navbar = () => {
             <button className="navbutton" onClick={navigateProduct}>
               Products
             </button>
-            <button className="navbutton" onClick={navigateContactUs}>
+            <button className="navbutton borderline" onClick={navigateContactUs}>
               Contact Us
             </button>
             <button className="navbutton" onClick={navigateAbout}>
               About
             </button>
+          </div>
+          <div className="dropDown">
+            <DropdownMenu />
           </div>
         </div>
       </div>
