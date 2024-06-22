@@ -1,38 +1,47 @@
 .header {
     /* background: #e34242b0; */
     padding: 20px 5px;
-      /* box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.348); */
+    /* box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.348); */
     /* border-top: none; */
     /* padding-top: 6rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
-.intro{
+.intro {
     margin: 10px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.intro h2{
+.intro h2 {
     font-family: "Abhay-Libre Bold";
     color: #404040;
     font-size: 32px;
     text-transform: capitalize;
 }
 
-.intro p{
+.intro p {
     color: #646464;
     font-size: 15px;
     text-transform: capitalize;
+    overflow-wrap: break-word;
+
 }
 
 .items {
+    width: 60%;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 25px;
 }
 
 
@@ -42,28 +51,57 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: transform 0.3sec ease-in-out;
+    text-decoration: none;
+    color: #505050;
+
+}
+
+a:hover {
+    /* transform: scale(1.05); */
+    color: #fb6a28;
+
+}
+
+a img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    filter: drop-shadow(0px 0px 5px #555);
     transition: transform 0.2sec ease-in-out;
 }
 
-.item img {
-    width: 80px;
-    height: 80px;
-    /* border-radius: 50%; */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 5px #555);
 
+.item p {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    overflow-wrap: break-word;
+    margin: 20px auto 0;
+    font-weight: 700;
 }
 
-.item:hover {
-    transform: scale(1.05);
-}
 
-.item span {
-    font-weight: bold;
-}
-
-@media screen and (max-width: 800px) {
-    .header{
+@media screen and (max-width: 1200px) {
+    .header {
         padding-top: 2.5rem;
     }
+
+    a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .items {
+        width: 100%;
+        margin: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
 }

@@ -1,13 +1,13 @@
 
     .intro h2{
         font-family: "Abhay-Libre Bold";
-        color: #404040;
+        color: #414141;
         font-size: 32px;
         text-transform: capitalize;
     }
 
     .intro p{
-        color: #646464;
+        color: #656565;
         font-size: 15px;
         text-transform: capitalize;
     }

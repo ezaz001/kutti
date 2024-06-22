@@ -1,0 +1,145 @@
+.footercontainer {
+    width: 100%;
+    height: 100%;
+    background: #e7e6e6;
+}
+
+.footertop {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.companydetails {
+    width: 25%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* color: #414141; */
+}
+
+.moreinformation {
+    width: 25%;
+    margin-right: 15px;
+}
+
+
+.footerh3 {
+    color: #414141;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #636363;
+    font-size: 14px;
+    transition: 0.3s all ease-in-out;
+}
+
+.address {
+    width: 15%;
+}
+
+.address p {
+    color: #636363;
+    font-size: 14px;
+}
+
+
+.footermiddle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #717171;
+    margin-top: 20px;
+}
+
+.boxlists {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.payment {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.payment img {
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.allsocial {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.faIcon {
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    color: #636363;
+    margin-left: 15px;
+    transition: 0.3s all ease-in-out;
+}
+
+.faIcon:hover {
+    color: #F3601E;
+}
+
+.footerbottom {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    background-color: #868686;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerbottom p {
+    color: #2f2f2f;
+    font-size: 12px;
+}
+
+.copyright {
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,76 @@
+.manubar {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    animation: animatetop 0.4s;
+}
+
+
+
+@keyframes animatetop {
+    0% {
+        top: -90px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+
+}
+
+.fixed {
+    animation: animatetop 0.3s;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.manubarlists {
+    width: 100%;
+}
+
+.manubarlist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    padding-top: 8px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.manubarlist li {
+    margin-right: 15px;
+    margin-left: 15px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.manubarlist li a {
+    font-size: 1rem;
+    transition: all 4ms ease-in-out;
+    padding-bottom: 5px;
+}
+
+.manubarlist li a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+
+@media screen and (max-width:1049px) {
+
+    .manubarlist li {
+        margin-right: 6px;
+        margin-left: 6px;
+        padding-bottom: 10px;
+
+
+    }
+}

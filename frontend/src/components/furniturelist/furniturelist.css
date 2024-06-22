@@ -1,0 +1,93 @@
+.furnitures {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.furnitureContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.quotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quotes h3 {
+    font-family: "Abhay-Libre Bold";
+    color: #404040;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.quotes p {
+    color: #646464;
+    font-size: 15px;
+    text-transform: capitalize;
+    overflow-wrap: break-word;
+    line-height: 30px;
+}
+
+.itemboxes {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    overflow: hidden;
+
+}
+
+.furniturebox {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+
+}
+
+.furniturebox img {
+    width: 100%;
+    height: 100%;
+}
+
+.furniturebox img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+    /* display: inline-block; */
+    /* mix-blend-mode: darken; */
+    overflow: hidden;
+}
+
+.imgtop {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+
+    z-index: 100;
+    text-transform: capitalize;
+}
+
+.imgtop h3 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.imgtop p {
+    font-weight: 600;
+    color: rgb(212, 0, 0);
+}
