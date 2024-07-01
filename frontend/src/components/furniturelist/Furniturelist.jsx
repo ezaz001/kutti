@@ -15,14 +15,14 @@ const Furniturelist = () => {
         <div className="itemboxes">
           <div className="furniturebox">
             <div className="imgtop">
-              <h3>Sofa Set</h3>
+              <h3>Living Room</h3>
               <p>Upto 12% off</p>
             </div>
             <img src="./images/sofaset2.jpg" alt="" />
           </div>
           <div className="furniturebox">
             <div className="imgtop">
-              <h3>Bed</h3>
+              <h3>Bed Room</h3>
               <p>Upto 10% off</p>
             </div>
             <img src="./images/bed1.jpg" alt="" />
@@ -43,14 +43,14 @@ const Furniturelist = () => {
           </div>
           <div className="furniturebox">
             <div className="imgtop">
-              <h3>TV Unit</h3>
+              <h3>Kids Room</h3>
               <p>Upto 20% off</p>
             </div>
             <img src="./images/TVunits.jpg" alt="" />
           </div>
           <div className="furniturebox">
             <div className="imgtop">
-              <h3>Dining Table</h3>
+              <h3>Dining Area</h3>
               <p>Upto 30% off</p>
             </div>
             <img src="./images/Diningtable.jpg" alt="" />

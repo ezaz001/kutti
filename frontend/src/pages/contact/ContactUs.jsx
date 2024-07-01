@@ -1,15 +1,15 @@
 import React from "react";
 import "./contactus.css";
+import Navbar from '../../components/navbar/Navbar'
+import NavbarTop from '../../components/navbartop/NavbarTop'
+import Footer from '../../components/footer/Footer'
 
 const ContactUs = () => {
   return (
     <div>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae
-        sunt et illum, non dolore explicabo atque sed distinctio quidem enim
-        adipisci fugit laudantium quod voluptas, officia voluptatem! Earum
-        blanditiis accusamus praesentium unde doloremque debitis.
-      </p>
+      <NavbarTop/>
+      <Navbar/>
+      <Footer/>
     </div>
   );
 };

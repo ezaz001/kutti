@@ -66,8 +66,8 @@ a:hover {
 a img {
     width: 120px;
     height: 120px;
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 5px #555);
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 5px #555555a2);
     transition: transform 0.2sec ease-in-out;
 }
 
@@ -103,5 +103,8 @@ a img {
         flex-wrap: wrap;
     }
 
+    .item p {
+        display: none;
+    }
 
 }

@@ -93,7 +93,7 @@
 }
 
 .borderline {
-    padding: 0px 20px;
-    border-left: 1px solid #b3b3b3;
+    padding: 0px 15px;
+    /* border-left: 1px solid #b3b3b3; */
     border-right: 1px solid #b3b3b3;
 }

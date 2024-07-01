@@ -1,0 +1,32 @@
+[
+    {
+        "image" : "./images/img1.jpeg",
+      "text": "Great service and friendly staff!",
+      "author": "John Doe",
+      "rating": "Rating- 9.5/10"
+    },
+    {
+        "image" : "./images/img2.jpeg",
+      "text": "I love the user-friendly interface.",
+      "author": "Jane Smith",
+      "rating": "Rating- 9/10"
+    },
+    {
+        "image" : "./images/img3.jpeg",
+      "text": "Quick response times and very helpful.",
+      "author": "Emily Johnson",
+      "rating": "Rating- 8/10"
+    },
+    {
+        "image" : "./images/img5.jpeg",
+      "text": "Quick response times and very helpful.",
+      "author": "Ezaz Majumder",
+      "rating": "Rating- 8.5/10"
+    },
+    {
+        "image" : "./images/img6.jpeg",
+      "text": "Quick response times and very helpful.",
+      "author": "Ehana Majumder",
+      "rating": "Rating- 9.5/10"
+    }
+  ]

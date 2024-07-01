@@ -6,6 +6,10 @@ import DropdownMenu from "../dropDown/DropdownMenu";
 const Navbar = () => {
   const navigate = useNavigate();
 
+  const navigateHome = () => {
+    navigate("/");
+  };
+
   const navigateProduct = () => {
     navigate("/products");
   };
@@ -25,14 +29,20 @@ const Navbar = () => {
             <h2 className="name">M/S Khan Furniture Shop</h2>
           </div>
           <div className="navright">
-            <button className="navbutton" onClick={navigateProduct}>
+            <button className="navbutton borderline" onClick={navigateHome}>
+              Home
+            </button>
+            <button className="navbutton borderline" onClick={navigateProduct}>
               Products
             </button>
-            <button className="navbutton borderline" onClick={navigateContactUs}>
+            <button
+              className="navbutton borderline"
+              onClick={navigateContactUs}
+            >
               Contact Us
             </button>
             <button className="navbutton" onClick={navigateAbout}>
-              About
+              About Us
             </button>
           </div>
           <div className="dropDown">

@@ -9,6 +9,7 @@ import NavbarTop from "../../components/navbartop/NavbarTop";
 import Furniturelist from "../../components/furniturelist/Furniturelist";
 import Footer from "../../components/footer/Footer";
 import Manubar from "../../components/menubar/Manubar";
+import Feedback from "../../components/feedback/Feedback";
 
 const home = () => {
   return (
@@ -21,6 +22,7 @@ const home = () => {
       <Carousel />
       <Header />
       <Furniturelist />
+      <Feedback/>
       <Footer />
     </div>
   );

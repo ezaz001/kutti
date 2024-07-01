@@ -1,11 +1,10 @@
 import React from "react";
 import "./dropDownMenu.css";
-import { useState, useRef, useEffect} from "react";
+import { useState, useRef, useEffect } from "react";
 
 const DropdownMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
-
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -18,9 +17,9 @@ const DropdownMenu = () => {
   };
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -31,9 +30,18 @@ const DropdownMenu = () => {
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
-          <li>Product</li>
-          <li>Contact</li>
-          <li>About</li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/products">Product</a>
+          </li>
+          <li>
+            <a href="/contactus">Contact</a>
+          </li>
+          <li>
+            <a href="/about">About Us</a>
+          </li>
         </ul>
       )}
     </div>
